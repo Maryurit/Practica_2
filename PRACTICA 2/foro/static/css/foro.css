@@ -1,0 +1,61 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.foro-container {
+    max-width: 700px;
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+}
+
+.foro-categorias .list-group-item {
+    border: none;
+    border-bottom: 1px solid #e0e0e0;
+    transition: background-color 0.2s ease;
+    font-size: 1.1rem;
+}
+
+.foro-categorias .list-group-item:hover {
+    background-color: #f0f4ff;
+    cursor: pointer;
+}
+
+h2 i {
+    color: #0d6efd;
+}
+
+.forum-container {
+    max-width: 800px;
+    margin: auto;
+}
+
+.forum-header h2 {
+    font-size: 1.8rem;
+}
+
+.forum-response {
+    background-color: #ffffff;
+    border-left: 5px solid #0d6efd;
+}
+
+.forum-response .text-body {
+    font-size: 0.95rem;
+}
+
+form textarea {
+    width: 100%;
+    min-height: 120px;
+    resize: vertical;
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+form label {
+    font-weight: 500;
+    color: #343a40;
+}
+

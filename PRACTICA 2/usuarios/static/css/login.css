@@ -1,0 +1,68 @@
+/* estilos.css */
+
+/* Fondo general */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tarjetas de formularios (registro / login) */
+.card {
+    border-radius: 1rem;
+    background-color: #ffffff;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h2 {
+    font-weight: 700;
+    color: #333333;
+}
+
+/* Etiquetas */
+.form-label {
+    font-weight: 600;
+    color: #444444;
+}
+
+/* Inputs */
+form input, form select, form textarea {
+    border-radius: 0.5rem;
+    padding: 0.6rem;
+    border: 1px solid #ccc;
+}
+
+/* Botones */
+button[type="submit"] {
+    padding: 0.7rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #198754; /* Bootstrap success hover */
+    color: white;
+}
+
+/* Enlaces */
+a {
+    color: #0d6efd;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Mensajes de error */
+.text-danger {
+    font-size: 0.875rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 576px) {
+    .card {
+        margin: 1rem;
+    }
+}
